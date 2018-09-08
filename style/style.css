@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+}
+form{
+    margin: 5px auto;
+    width:550px;
+}
+legend{
+    margin-left: 120px;
+}
+img{
+    border-radius: 50%;
+}
+fieldset{
+    box-shadow:0 15px 40px rgba(0, 0, 0, 0.658);	
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color:#262626;
+	text-transform:uppercase;
+}
+b {
+    margin-left: 25px;
+}
+.formBox {
+	 width:100%;
+	 padding:80px 40px;
+	 box-sizing:border-box;
+	 height:400px;
+	 background:#fff;
+ }
+ .formBox  label{
+	 margin:0;
+	 padding:0;
+	 font-weight:bold;
+	 color:#a6af13;
+ }
+ .formBox input{
+	 width:90%;
+	 margin-bottom: 20px;
+ }
+ .formBox input[type="text"],
+  .formBox input[type="Password"]{
+	  border:none;
+	  border-bottom: 2px solid #a6af13;
+	  outline:none;
+      height:40px;
+      width: 80%;
+      margin-left: 80px;
+      box-sizing:border-box;
+      
+  }
+  .formBoxinput[type="text"]:focus,
+  .formBoxinput[type="Password"]:focus{
+     border-bottom: 2px solid #a6af13; 
+  }
+  .formBox input[type="submit"]{
+	  border:none;
+	  outline:none;
+      height:40px;
+      width: 70%;
+      margin-left: 80px;
+	  color:#fff;
+	  background:#262626;
+	  cursor:pointer;
+  }
+  .formBox input[type="submit"]:hover{
+      background:#a6af13;
+  }
+  .formBox a {
+	  color:#262626;
+	  font-size:12px;
+	  
+  }
